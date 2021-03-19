@@ -64,24 +64,34 @@ header{
 .main-nav{
     list-style: none;
     float: right;
-   margin-top: 26px;
+   margin-top: 30px;
     font-size: 20px;
     margin-right: 260px;
     margin-bottom: 70px;
-    
-    
-    
+}
 
+
+.mobile-navicon{
+    float: right;
+    color: white;
+    margin-top: 25px;
+    font-size: 30px;
+    display: none;
 }
 .main-nav li{
     display: inline-block;
     margin-left: 20px;
+    padding-bottom: 10px;
 
+}
+.main-nav .icon2{
+    font-size: 20px;
 }
 .main-nav li a{
     text-decoration: none;
     color: white;
     margin-top: auto;
+   
 }
 .main-nav li a:hover,
 .main-nav li a:active,
@@ -98,6 +108,7 @@ header{
     height: 20px;
     width: 2px;
     color: white;
+    display: block;
 }
 .icon2{
     font-size: 55px;
@@ -430,5 +441,170 @@ footer a{
     cursor: pointer;
 
 }
+/*MEDIA QUERRIES*/
+@media only screen and (max-width: 520px ){
+    .main-nav{
+       margin-left: 300px;
+        margin-right: auto;
+        margin-top: 19px;
+        background-color: #0009;
+        padding-bottom: 30px; 
+        display: none;
+           
+    }
+    .row{
+        max-width: 768px;
+    }
+    .main-nav .line{
+        display: none;
+    }
+    .nyil{
+        margin-left: 220px;
+        position: relative;
+        top: 250px;
+    }
+    .main-nav li {
+    display: block;
+    }
+    .icon1{
+        font-size: 10%;
+        margin-left: auto;
+    }
+    .mobile-navicon{
+        display: inline-block;
+        cursor: pointer;
+    }
+    .images{
+        display: none;
+    }
+    .header-left{
+       width: 500px;
+        margin-left: 160px;
+        font-size: 15px;
+        margin-top: auto;
+    }
+    .text1{
+        padding-bottom: 10px;
+    }
+    .text2{
+        font-size: 10px;
+        text-align: center;
+        display: block;
+        position: relative;
+        top: 0;
+        
+       
+        
+    }
+    header{
+        margin-bottom: 30px;
+    }
+    .header-left a{
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right:10px;
+        width: 30px;
+        height: 10px;
+        margin-left: 15px;
+    
+    }
+       .header-top{
+           max-width: 768px;
+       }
+    .media1{
+        margin-left: 50px;
+    }
+    .media2{
+        margin-left: 18px;
+    }
+    .s1 .s1-header{
+        font-size: 30px;
+        margin-left: 70px;
+
+    }
+    .s1-content h2{
+        font-size: 19px;
+    }
+    
+     .s1-content .pmargin1,
+     .s1-content .pmargin2{
+         padding-top: 20px;
+         
+     }
+     .s1 p{
+         padding-bottom: 32px;
+     }
+     .s1 .pmargin1{
+         padding-bottom: 37px;
+     }
+     .s1 .pmargin2{
+         padding-bottom: 55px;
+     }
+     .amargin2{
+        padding-left: 15px;
+        display: block;
+     }
+     .s1 a{
+         font-size: 15px;
+     }
+     footer{
+         height: 120vh;
+         font-size: 15px;
+     }
+    .ft-logo {
+         width: 200px;
+         height: 50px
+     }
+     .list{
+         float: left;
+         margin-left: auto;
+         padding-top: 20px;
+         
+     }
+     .list1{
+         
+         padding-left: 20px;
+         
+         
+     }
+     .list2
+     {
+        padding-left: 20px;
+     }
+     .list3{
+        padding-left: 20px;
+        
+     }
+     .social-logos{
+         width: 400px;
+         padding-left: 150px;
+         padding-bottom: 30px;
+     }
+     .fn{
+         float: left;
+         margin-right: 100px;
+     }
+     .fn li a{
+         padding-right: 70px;
+         font-size: 12px;
+         padding-top: 20px;
+         
+        
+         
+     }
+     .footer-text{     
+         float: left;
+         text-align: left;
+     }
+     .ft-logo{
+         padding-top: 20px;
+        
+     }
+     .name{
+         display: block;
+     }
+    }
+    
+       
 
 
